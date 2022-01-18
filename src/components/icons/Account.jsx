@@ -1,8 +1,8 @@
 import { Icon } from '@chakra-ui/react'
-import { RiAccountCircleLine } from 'react-icons/Ri'
+import { AiOutlineUser } from 'react-icons/Ai'
 
 const Account = () => {
-  return <Icon as={RiAccountCircleLine} />
+  return <Icon as={AiOutlineUser} />
 }
 
 export default Account
