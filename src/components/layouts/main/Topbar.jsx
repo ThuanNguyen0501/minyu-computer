@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Button, Box, Container, useDisclosure } from '@chakra-ui/react'
-import { Login, LogOut, Account } from '@/components/icons'
+import { Login, LogOut } from '@/components/icons'
 import LoginModal from '@/modules/account/components/LoginMoDal'
 
 const Topbar = () => {
@@ -25,7 +25,7 @@ const Topbar = () => {
         </Button>
         <Button
           mx={2}
-          leftIcon={<Account />}
+          // leftIcon={<Account />}
           colorScheme="cyan"
           size="xs"
           variant="ghost"

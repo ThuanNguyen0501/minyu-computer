@@ -1,8 +1,8 @@
-import { Icon } from '@chakra-ui/react'
-import { CgUser } from 'react-icons/Cg'
+// import { Icon } from '@chakra-ui/react'
+// import { CgUser } from 'react-icons/Cg'
 
-const Account = () => {
-  return <Icon as={CgUser} />
-}
+// const Account = () => {
+//   return <Icon as={CgUser} />
+// }
 
-export default Account
+// export default Account
